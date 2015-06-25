@@ -27,9 +27,9 @@ class DailyEmail
       :to => email, 
       :subject => "Please say this has all the NYT stuff...",
       :html => "<html><img src=#{@gif}> 
-<h3>#{@headline}</h3> 
-<h6>#{@snippet}</h6> 
-View the full article here:#{@url} 
+<h2>#{@headline}</h2> 
+<h4>#{@snippet}</h4> 
+View the full article here: #{@url} 
 <h3>This is your daily stuff. Brought to you by the Daily Update.</h3></html>" 
       
     end   

@@ -1,6 +1,5 @@
 require 'bundler'
 Bundler.require
-require 'giphy'
 
 require_relative 'models/subscribe.rb'
 require_relative 'models/unsubscribe.rb'
