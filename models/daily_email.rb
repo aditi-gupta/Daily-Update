@@ -19,13 +19,18 @@ class DailyEmail
     @weather_conditions = result.days[0].conditions
     @weather_high = result.days[0].high.fahrenheit
     @weather_low = result.days[0].low.fahrenheit
-    
-    url = open('http://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=8d4f4955fc1ec5ba9bb216928505e58b:18:71651992')
 
-      response_hash = JSON.load(open(url))
-      @url = response_hash["response"]["docs"][0]["web_url"] 
-      @headline = response_hash["response"]["docs"][0]["headline"]["main"]
-      @snippet = response_hash["response"]["docs"][0]["snippet"]    
+    url = open('http://api.nytimes.com/svc/topstories/v1/home.json?api-key=1bc209243e9293d196158d94ac2c3bf3:12:72378428')
+    results_hash = JSON.load(open(url))
+    @url1 = results_hash["results"][0]["url"] 
+    @headline1 = results_hash["results"][0]["title"]
+    @abstract1 = results_hash["results"][0]["abstract"]   
+    @url2 = results_hash["results"][1]["url"] 
+    @headline2 = results_hash["results"][1]["title"]
+    @abstract2 = results_hash["results"][1]["abstract"] 
+    @url3 = results_hash["results"][2]["url"] 
+    @headline3 = results_hash["results"][2]["title"]
+    @abstract3 = results_hash["results"][2]["abstract"]
     
     @emails.each do |email|
       RestClient.post "https://api:key-3f0bf97cdc41cba9bb58712d34992b25"\
@@ -35,21 +40,27 @@ class DailyEmail
       :subject => "Your Daily Update",
       :html => "<html><head>
 <body style=
-  'text-align: center;font-family: baskerville;color: black'>
+  'text-align: center;font-family: baskerville;color: #000000'>
 </head>
 <body>
 <img src=#{@gif}> 
 <h2>Today's Headlines:</h2>
-<h3>#{@headline}</h3> 
-<h4>#{@snippet}</h4> 
-View the full article here: #{@url} 
+<h3>#{@headline1}</h3> 
+<h4>#{@abstract1}</h4> 
+View the full article here: #{@url1} 
+<h3>#{@headline2}</h3> 
+<h4>#{@abstract2}</h4> 
+View the full article here: #{@url2}
+<h3>#{@headline3}</h3> 
+<h4>#{@abstract3}</h4> 
+View the full article here: #{@url3}
 <br>
 <h2>Today's Weather:</h2>
 <h3>Today's weather conditions: #{@weather_conditions}.
 The high temperature for today: #{@weather_high} degrees Fahrenheit.
 The low temperature for today: #{@weather_low} degrees Fahrenheit.</h3>
 <h5>The news update is from the New York Times. The weather conditions are for New York, NY 10028. The weather information is from the Weather Underground Database.</h5>
-<h5>Brought to you by the Daily Update.</h5>
+<h5>Brought to you by The Daily Update.</h5>
 </body></html>" 
       
     end   
