@@ -1,0 +1,18 @@
+=== 1.1.1 2011-03-05
+* Fix packaging issues with 1.1.0
+
+=== 1.1.0 2011-03-04
+
+* 3 major enhancements:
+  * Access Current Observation data
+  * Access Forecast data
+  * Access Alers data
+
+=== 1.0.1 ...
+* fix it so that rakefile correctly understands readme
+
+=== 1.0.0 2010-03-13
+
+* 1 major enhancement:
+  * Initial release - supports uploading data to weather undergound
+    personal weather station service

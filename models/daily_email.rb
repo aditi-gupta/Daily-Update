@@ -33,18 +33,24 @@ class DailyEmail
       :from => "Mailgun Sandbox <postmaster@sandboxd0e86587ad9f4ec8845133e378927022.mailgun.org>",
       :to => email, 
       :subject => "Your Daily Update",
-      :html => "<html><img src=#{@gif}> 
-<h2>#{@headline}</h2> 
+      :html => "<html><head>
+<body style=
+  'text-align: center;font-family: baskerville;color: black'>
+</head>
+<body>
+<img src=#{@gif}> 
+<h2>Today's Headlines:</h2>
+<h3>#{@headline}</h3> 
 <h4>#{@snippet}</h4> 
 View the full article here: #{@url} 
 <br>
-<h2>Today will be: #{@weather_conditions}.
-The high for today is: #{@weather_high} degrees Fahrenheit.
-The low for today is: #{@weather_low} degrees Fahrenheit.</h2>
-<br>
+<h2>Today's Weather:</h2>
+<h3>Today's weather conditions: #{@weather_conditions}.
+The high temperature for today: #{@weather_high} degrees Fahrenheit.
+The low temperature for today: #{@weather_low} degrees Fahrenheit.</h3>
 <h5>The news update is from the New York Times. The weather conditions are for New York, NY 10028. The weather information is from the Weather Underground Database.</h5>
-<br>
-<h5>Brought to you by the Daily Update.</h5></html>" 
+<h5>Brought to you by the Daily Update.</h5>
+</body></html>" 
       
     end   
   end

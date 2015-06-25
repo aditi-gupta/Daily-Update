@@ -33,12 +33,15 @@ GEM
       faraday_middleware (~> 0.9)
       faraday_middleware-parse_oj (~> 0.3)
       launchy (~> 2.4)
+    happymapper (0.4.1)
+      libxml-ruby (~> 2.0)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
     i18n (0.7.0)
     json (1.8.3)
     launchy (2.4.3)
       addressable (~> 2.3)
+    libxml-ruby (2.8.0)
     method_source (0.8.2)
     mime-types (2.6.1)
     minitest (5.7.0)
@@ -66,6 +69,7 @@ GEM
       activerecord (>= 3.2)
       sinatra (~> 1.0)
     slop (3.6.0)
+    temperature (1.2)
     thread_safe (0.3.5)
     tilt (2.0.1)
     tzinfo (1.2.2)
@@ -73,6 +77,10 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
+    weather-underground (1.1.1)
+      happymapper
+      rest-client
+      temperature (>= 1.0.0)
 
 PLATFORMS
   ruby
@@ -86,3 +94,4 @@ DEPENDENCIES
   shotgun
   sinatra
   sinatra-activerecord
+  weather-underground
