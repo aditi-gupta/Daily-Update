@@ -2,25 +2,23 @@
   
   <head>
     <title>The Daily Update</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   
-  <div class = "content">
-    <body>
-      <h1>The Daily Update</h1>
-      <h2>News, Weather, and Adorable Animals Delivered to Your Inbox Every Morning</h2>
-      <h4>Every morning, you'll get an email with the latest major headlines from the New York Times, a weather update, and a random gif of an adorable animal. Access it all directly from your inbox!</h4>
+  <body>
+    <h1>The Daily Update</h1>
+    <h2>News, Weather, and Adorable Animals Delivered to Your Inbox Every Morning</h2>
+    <h4>Every morning, you'll get an email with the latest major headlines from the New York Times, a weather update, and a random gif of an adorable animal. Access it all directly from your inbox!</h4>
 
+    <br>
+
+    <form action="/unsubscribe" method="POST">
+      <label>Please enter your email address here to unsubscribe from these emails.</label>
       <br>
+      <input type="text" name="unsubscriber_email">
+      <button value="submit">Unsubscribe</button>
+    </form>
 
-      <form action="/unsubscribe" method="POST">
-        <label>Please enter your email address here to unsubscribe from these emails.</label>
-        <br>
-        <input type="text" name="unsubscriber_email">
-        <button value="submit">Unsubscribe</button>
-      </form>
-
-    </body>
-  </div>
+  </body>
   
 </html>
