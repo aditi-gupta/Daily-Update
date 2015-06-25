@@ -5,23 +5,27 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   
-  <body>
-    <h1>The Daily Update</h1>
-    <h2>News, Weather, and Adorable Animals Delivered to Your Inbox Every Morning</h2>
-    <h4>Every morning, you'll get an email with the latest major headlines from the New York Times, a weather update, and a random gif of an adorable animal. Access it all directly from your inbox!</h4>
-    
-    <br>
-    
-    <form action="/subscribe" method="POST">
-      <label>Just enter your email address here to subscribe to this daily email service! Don't worry, we won't use your email for anything but these updates.</label>
+  <div class = "content">
+    <body>
+      <h1>The Daily Update</h1>
+      <h2>News, Weather, and Adorable Animals Delivered to Your Inbox Every Morning</h2>
+      <h4>Every morning, you'll get an email with the latest major headlines from the New York Times, a weather update, and a random gif of an adorable animal. Access it all directly from your inbox!</h4>
+
       <br>
-      <input type="text" name="subscriber_email">
-      <button value="submit">Subscribe!</button>
-    </form>
-    
-    <a href = "/unsubscribe_page">
-      <p>Click here to unsubscribe</p>
-    </a>
-  </body>
+
+      <form action="/subscribe" method="POST">
+        <label>Just enter your email address here to subscribe to this daily email service! Don't worry, we won't use your email for anything but these updates.</label>
+        <br>
+        <input type="text" name="subscriber_email">
+        <button value="submit">Subscribe!</button>
+      </form>
+
+      <a href = "/unsubscribe_page">
+        <p>Click here to unsubscribe</p>
+      </a>
+      
+      <img src = "http://media.giphy.com/media/Mbcb3TG9Wn84w/giphy.gif"/>
+    </body>
+  </div>
   
 </html>
