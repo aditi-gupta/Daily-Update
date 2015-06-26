@@ -14,7 +14,12 @@ class DailyEmail
       "fiona.sana@gmail.com" => "11580",
       "mstines007@icloud.com" => "10018",
       "aguptaus@gmail.com" => "10028",
-      "kguptaus@gmail.com" => "10028"
+      "kguptaus@gmail.com" => "10028",
+      "runwithbooks@gmail.com" => "11209",
+      "corinnerb18@gmail.com" => "10028",
+      "acmawji888@yahoo.com" => "10128",
+      "scheng161@gmail.com" => "10128",
+      "siqbal@brearley.org" => "10028"
       }
     
   end
