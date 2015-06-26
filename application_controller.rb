@@ -5,6 +5,8 @@ require_relative 'models/subscribe.rb'
 require_relative 'models/unsubscribe.rb'
 
 class MyApp < Sinatra::Base
+  
+  @@subscriber_to_add = nil
 
   get '/' do
     erb :index
@@ -12,8 +14,14 @@ class MyApp < Sinatra::Base
   
   post '/subscribe' do
     new_subscriber = params["subscriber_email"]
-    subscriber_to_add = Subscriber.new(new_subscriber)
-    subscriber_to_add.send_subscriber_message
+    @@subscriber_to_add = Subscriber.new(new_subscriber)
+    erb :zipcode
+  end
+  
+  post '/add_zipcode' do
+    subscriber_zipcode = params["zipcode"]
+    @@subscriber_to_add.zipcode=(subscriber_zipcode)
+    @@subscriber_to_add.send_subscriber_message
     erb :thanks
   end
   
