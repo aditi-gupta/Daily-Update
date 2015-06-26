@@ -8,7 +8,7 @@ require 'weather-underground'
 class DailyEmail
   def initialize
     @users = {
-      "arushigupta101@gmail.com" => "96701",
+      "arushigupta101@gmail.com" => "10028",
       "aditi100gupta@gmail.com" => "10028"
       }
     
@@ -76,7 +76,7 @@ View the full article here: #{@url4}
 View the full article here: #{@url5}
 <br>
 <h5>The weather information is from the Weather Underground Database. The news update is from the New York Times.</h5>
-<h5>Brought to you by The Daily Update.</h5>
+<h5>Brought to you by The Daily Update. To unsubscribe, follow the link on <a href = 'the-daily-update.herokuapp.com'>The Daily Update's website.</a></h5>
 </body></html>" 
       
     end   
