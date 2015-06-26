@@ -9,7 +9,12 @@ class DailyEmail
   def initialize
     @users = {
       "arushigupta101@gmail.com" => "10028",
-      "aditi100gupta@gmail.com" => "10028"
+      "aditi100gupta@gmail.com" => "10028",
+      "ellapapanek@yahoo.com" => "10011",
+      "fiona.sana@gmail.com" => "11580",
+      "mstines007@icloud.com" => "10018",
+      "aguptaus@gmail.com" => "10028",
+      "kguptaus@gmail.com" => "10028"
       }
     
   end
@@ -82,6 +87,3 @@ View the full article here: #{@url5}
     end   
   end
 end
-
-test_email = DailyEmail.new
-test_email.send_daily_email
