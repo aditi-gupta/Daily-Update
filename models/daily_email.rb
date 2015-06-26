@@ -56,8 +56,8 @@ class DailyEmail
       @abstract5 = results_hash["results"][4]["abstract"]
 
       RestClient.post "https://api:key-3f0bf97cdc41cba9bb58712d34992b25"\
-    "@api.mailgun.net/v3/sandboxd0e86587ad9f4ec8845133e378927022.mailgun.org/messages",
-      :from => "Mailgun Sandbox <postmaster@sandboxd0e86587ad9f4ec8845133e378927022.mailgun.org>",
+        "@api.mailgun.net/v3/the-daily-update.com/messages",
+      :from => "The Daily Update <postmaster@the-daily-update.com>",
       :to => email, 
       :subject => "Your Daily Update",
       :html => "<html><head>
@@ -94,3 +94,6 @@ View the full article here: #{@url5}
     end   
   end
 end
+
+test_email=DailyEmail.new
+test_email.send_daily_email
