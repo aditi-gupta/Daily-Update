@@ -1,4 +1,4 @@
-require "rest-client"
+require 'rest-client'
 require 'giphy'
 require 'pry'
 require 'json'
@@ -44,6 +44,10 @@ class DailyEmail
 </head>
 <body>
 <img src=#{@gif}> 
+<h2>Today's Weather:</h2>
+<h3>Today's weather conditions: #{@weather_conditions}.
+The high temperature for today: #{@weather_high} degrees Fahrenheit.
+The low temperature for today: #{@weather_low} degrees Fahrenheit.</h3>
 <h2>Today's Headlines:</h2>
 <h3>#{@headline1}</h3> 
 <h4>#{@abstract1}</h4> 
@@ -55,11 +59,7 @@ View the full article here: #{@url2}
 <h4>#{@abstract3}</h4> 
 View the full article here: #{@url3}
 <br>
-<h2>Today's Weather:</h2>
-<h3>Today's weather conditions: #{@weather_conditions}.
-The high temperature for today: #{@weather_high} degrees Fahrenheit.
-The low temperature for today: #{@weather_low} degrees Fahrenheit.</h3>
-<h5>The news update is from the New York Times. The weather conditions are for New York, NY 10028. The weather information is from the Weather Underground Database.</h5>
+<h5>The weather conditions are for New York, NY 10028. The weather information is from the Weather Underground Database. The news update is from the New York Times.</h5>
 <h5>Brought to you by The Daily Update.</h5>
 </body></html>" 
       
