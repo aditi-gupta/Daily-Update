@@ -20,7 +20,8 @@ class DailyEmail
       "acmawji888@yahoo.com" => "10128",
       "scheng161@gmail.com" => "10128",
       "siqbal@brearley.org" => "10028",
-      "amdargan@gmail.com" => "10128"
+      "amdargan@gmail.com" => "10128",
+      "cricky@flatironschool.com" => "10012"
       }
     
   end
