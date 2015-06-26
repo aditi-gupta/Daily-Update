@@ -19,7 +19,3 @@ class Subscriber
     end
   end
 end
-
-test = Subscriber.new("emailaddress")
-test.zipcode=("zipcode")
-test.send_subscriber_message
