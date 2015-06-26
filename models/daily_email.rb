@@ -94,6 +94,3 @@ View the full article here: #{@url5}
     end   
   end
 end
-
-test_email=DailyEmail.new
-test_email.send_daily_email
