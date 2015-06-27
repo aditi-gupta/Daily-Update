@@ -21,7 +21,8 @@ class DailyEmail
       "scheng161@gmail.com" => "10128",
       "siqbal@brearley.org" => "10028",
       "amdargan@gmail.com" => "10128",
-      "cricky@flatironschool.com" => "10012"
+      "cricky@flatironschool.com" => "10012",
+      "isabellagamboa@gmail.com" => "10024"
       }
     
   end
