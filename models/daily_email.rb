@@ -19,7 +19,6 @@ class DailyEmail
       "corinnerb18@gmail.com" => "10028",
       "acmawji888@yahoo.com" => "10128",
       "scheng161@gmail.com" => "10128",
-      "siqbal@brearley.org" => "10028",
       "amdargan@gmail.com" => "10128",
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024"
