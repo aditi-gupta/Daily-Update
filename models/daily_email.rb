@@ -24,7 +24,8 @@ class DailyEmail
       "isabellagamboa@gmail.com" => "10024",
       "ecarey@deloitte.com" => "10019",
       "pgcarey@aol.com" => "60045",
-      "ajax461@yahoo.com" => "44236"
+      "ajax461@yahoo.com" => "44236",
+      "sahrsingh@yahoo.com" => "10029"
       }
     
   end
