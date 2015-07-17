@@ -1,9 +1,9 @@
-require 'rest-client'
-require 'giphy'
-require 'pry'
-require 'json'
-require 'open-uri'
-require 'weather-underground'
+require "rest-client"
+require "giphy"
+require "pry"
+require "json"
+require "open-uri"
+require "weather-underground"
 
 class DailyEmail
   def initialize
