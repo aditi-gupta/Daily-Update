@@ -16,7 +16,6 @@ class DailyEmail
       "aguptaus@gmail.com" => "10028",
       "kguptaus@gmail.com" => "10028",
       "runwithbooks@gmail.com" => "11209",
-      "corinnerb18@gmail.com" => "10028",
       "acmawji888@yahoo.com" => "10128",
       "scheng161@gmail.com" => "10128",
       "amdargan@gmail.com" => "10128",
