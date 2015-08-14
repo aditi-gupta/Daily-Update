@@ -25,7 +25,8 @@ class DailyEmail
       "ecarey@deloitte.com" => "10019",
       "pgcarey@aol.com" => "60045",
       "ajax461@yahoo.com" => "44236",
-      "sahrsingh@yahoo.com" => "10029"
+      "sahrsingh@yahoo.com" => "10029",
+      "nehagnagpal@gmail.com" => "10028"
       }
     
   end
