@@ -25,7 +25,8 @@ class DailyEmail
       "pgcarey@aol.com" => "60045",
       "ajax461@yahoo.com" => "44236",
       "sahrsingh@yahoo.com" => "10029",
-      "taylor@flatironschool.com" => "75230"
+      "taylor@flatironschool.com" => "75230",
+      "nehagnagpal@gmail.com" => "10028"
       }
     
   end
