@@ -16,7 +16,6 @@ class DailyEmail
       "aguptaus@gmail.com" => "10028",
       "kguptaus@gmail.com" => "10028",
       "runwithbooks@gmail.com" => "11209",
-      "corinnerb18@gmail.com" => "10028",
       "acmawji888@yahoo.com" => "10128",
       "scheng161@gmail.com" => "10128",
       "amdargan@gmail.com" => "10128",
@@ -26,7 +25,7 @@ class DailyEmail
       "pgcarey@aol.com" => "60045",
       "ajax461@yahoo.com" => "44236",
       "sahrsingh@yahoo.com" => "10029",
-      "nehagnagpal@gmail.com" => "10028"
+      "taylor@flatironschool.com" => "75230"
       }
     
   end
