@@ -9,7 +9,7 @@ class Unsubscriber
   end
   def send_unsubscriber_message
     @our_emails.each do |my_email|
-      RestClient.post "https://api:key-3f0bf97cdc41cba9bb58712d34992b25"\
+      RestClient.post "https://api:key-b3c3fcdb51c644397a7748c033c1c804"\
     "@api.mailgun.net/v3/sandboxd0e86587ad9f4ec8845133e378927022.mailgun.org/messages",
       :from => "Mailgun Sandbox <postmaster@sandboxd0e86587ad9f4ec8845133e378927022.mailgun.org>",
       :to => my_email, 
