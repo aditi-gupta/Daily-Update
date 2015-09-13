@@ -1,5 +1,8 @@
 body {
   background-image: url("http://4.bp.blogspot.com/-FSzxp3IH1A8/VHKLkP7WOuI/AAAAAAAAXU4/j_KJFRN4zOA/s1600/photodune-2487584-white-wood-background-m.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
   font-family: baskerville;
   color: black;
