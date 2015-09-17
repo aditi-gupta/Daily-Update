@@ -30,7 +30,8 @@ class DailyEmail
       "drmcclure2017@grsu14.org" => "04071",
       "dsyoung2017@grsu14.org" => "04071",
       "mkyi@brearley.org" => "10028",
-      "cnilssonsalvati@brearley.org" => "11101"
+      "cnilssonsalvati@brearley.org" => "11101",
+      "jkaplan@brearley.org" => "10028"
       }
     
   end
