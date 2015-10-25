@@ -21,7 +21,6 @@ class DailyEmail
       "amdargan@gmail.com" => "10128",
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024",
-      "ecarey@deloitte.com" => "10019",
       "pgcarey@aol.com" => "60045",
       "ajax461@yahoo.com" => "44236",
       "sahrsingh@yahoo.com" => "10029",
