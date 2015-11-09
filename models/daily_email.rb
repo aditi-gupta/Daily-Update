@@ -26,7 +26,6 @@ class DailyEmail
       "sahrsingh@yahoo.com" => "10029",
       "taylor@flatironschool.com" => "75230",
       "nehagnagpal@gmail.com" => "10028",
-      "drmcclure2017@grsu14.org" => "04071",
       "dsyoung2017@grsu14.org" => "04071",
       "mkyi@brearley.org" => "10028",
       "cnilssonsalvati@brearley.org" => "11101",
