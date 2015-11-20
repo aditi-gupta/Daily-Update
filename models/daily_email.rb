@@ -40,7 +40,7 @@ class DailyEmail
   def send_daily_email
     @users.each do |email, zipcode|
       
-      @gif = Giphy.random('puppy', 'cute').image_original_url
+      @gif = Giphy.random('puppy').image_original_url
 
       client = WeatherUnderground::Base.new
       result = client.SimpleForecast( zipcode )
@@ -66,7 +66,7 @@ class DailyEmail
       @headline5 = results_hash["results"][4]["title"]
       @abstract5 = results_hash["results"][4]["abstract"]
 
-      RestClient.post "https://api:key-b3c3fcdb51c644397a7748c033c1c804"\
+      RestClient.post "https://api:key-a16cd16a87d93b2c72100c8dfc9a86a3"\
         "@api.mailgun.net/v3/the-daily-update.com/messages",
       :from => "The Daily Update <postmaster@the-daily-update.com>",
       :to => email, 
