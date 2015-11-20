@@ -10,29 +10,29 @@ class DailyEmail
     @users = {
       "arushigupta101@gmail.com" => "10028",
       "aditi100gupta@gmail.com" => "10028",
-      "ellapapanek@yahoo.com" => "10011",
-      "fiona.sana@gmail.com" => "11580",
-      "mstines007@icloud.com" => "10018",
-      "aguptaus@gmail.com" => "10028",
-      "kguptaus@gmail.com" => "10028",
-      "runwithbooks@gmail.com" => "11209",
-      "acmawji888@yahoo.com" => "10128",
-      "scheng161@gmail.com" => "10128",
-      "amdargan@gmail.com" => "10128",
-      "cricky@flatironschool.com" => "10012",
-      "isabellagamboa@gmail.com" => "10024",
-      "pgcarey@aol.com" => "60045",
-      "ajax461@yahoo.com" => "44236",
-      "sahrsingh@yahoo.com" => "10029",
-      "taylor@flatironschool.com" => "75230",
-      "nehagnagpal@gmail.com" => "10028",
-      "dsyoung2017@grsu14.org" => "04071",
-      "mkyi@brearley.org" => "10028",
-      "cnilssonsalvati@brearley.org" => "11101",
-      "jkaplan@brearley.org" => "10028",
-      "chloestingray@gmail.com" => "10021",
-      "adamtornado@gmail.com" => "10021",
-      "pwhitehouse@brearley.org" => "10128"
+      # "ellapapanek@yahoo.com" => "10011",
+      # "fiona.sana@gmail.com" => "11580",
+      # "mstines007@icloud.com" => "10018",
+      # "aguptaus@gmail.com" => "10028",
+      # "kguptaus@gmail.com" => "10028",
+      # "runwithbooks@gmail.com" => "11209",
+      # "acmawji888@yahoo.com" => "10128",
+      # "scheng161@gmail.com" => "10128",
+      # "amdargan@gmail.com" => "10128",
+      # "cricky@flatironschool.com" => "10012",
+      # "isabellagamboa@gmail.com" => "10024",
+      # "pgcarey@aol.com" => "60045",
+      # "ajax461@yahoo.com" => "44236",
+      # "sahrsingh@yahoo.com" => "10029",
+      # "taylor@flatironschool.com" => "75230",
+      # "nehagnagpal@gmail.com" => "10028",
+      # "dsyoung2017@grsu14.org" => "04071",
+      # "mkyi@brearley.org" => "10028",
+      # "cnilssonsalvati@brearley.org" => "11101",
+      # "jkaplan@brearley.org" => "10028",
+      # "chloestingray@gmail.com" => "10021",
+      # "adamtornado@gmail.com" => "10021",
+      # "pwhitehouse@brearley.org" => "10128"
       }
     
   end
@@ -40,7 +40,7 @@ class DailyEmail
   def send_daily_email
     @users.each do |email, zipcode|
       
-      @gif = Giphy.random(tag='puppy').image_original_url
+      @gif = Giphy.random('puppy', 'cute').image_original_url
 
       client = WeatherUnderground::Base.new
       result = client.SimpleForecast( zipcode )
@@ -105,3 +105,6 @@ View the full article here: #{@url5}
     end   
   end
 end
+
+test_email=DailyEmail.new
+test_email.send_daily_email
