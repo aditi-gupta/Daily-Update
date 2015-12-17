@@ -20,7 +20,7 @@ class MyApp < Sinatra::Base
   
   post '/add_zipcode' do
     subscriber_zipcode = params["zipcode"]
-    #@@subscriber_to_add.zipcode=(subscriber_zipcode)
+    @@subscriber_to_add.zipcode=(subscriber_zipcode)
     @@subscriber_to_add.send_subscriber_message
     erb :thanks
   end
