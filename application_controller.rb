@@ -22,7 +22,7 @@ class MyApp < Sinatra::Base
     subscriber_zipcode = params["zipcode"]
     @@subscriber_to_add.zipcode=(subscriber_zipcode)
     @@subscriber_to_add.send_subscriber_message
-    erb :thanks
+    erb :add_zipcode
   end
   
   get '/unsubscribe_page' do
