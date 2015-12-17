@@ -1,0 +1,1 @@
+Subscriber.new.send_subscriber_email
