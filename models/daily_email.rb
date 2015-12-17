@@ -32,7 +32,9 @@ class DailyEmail
       "jkaplan@brearley.org" => "10028",
       "chloestingray@gmail.com" => "10021",
       "adamtornado@gmail.com" => "10021",
-      "pwhitehouse@brearley.org" => "10128"
+      "pwhitehouse@brearley.org" => "10128",
+      "ichomnalez@brearley.org" => "10028",
+      "katherinehatfield2@gmail.com" => "10024"
       }
     
   end
