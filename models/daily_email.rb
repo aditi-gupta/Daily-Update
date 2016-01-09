@@ -34,7 +34,9 @@ class DailyEmail
       "adamtornado@gmail.com" => "10021",
       "pwhitehouse@brearley.org" => "10128",
       "ichomnalez@brearley.org" => "10028",
-      "katherinehatfield2@gmail.com" => "10024"
+      "katherinehatfield2@gmail.com" => "10024",
+      "reenagupta104@gmail.com" => "30097",
+      "ambaiv04@gmail.com" => "30022"
       }
     
   end
