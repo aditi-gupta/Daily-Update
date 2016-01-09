@@ -82,9 +82,9 @@ class DailyEmail
 <body>
 <img src=#{@gif}> 
 <h2>Today's Weather:</h2>
-<h3>Today's weather conditions: #{@weather_conditions}.
-The high temperature for today: #{@weather_high} degrees Fahrenheit.
-The low temperature for today: #{@weather_low} degrees Fahrenheit.</h3>
+<h3>Today's weather conditions: #{@weather_conditions}.</h3>
+<h3>The high temperature for today: #{@weather_high} degrees Fahrenheit.</h3>
+<h3>The low temperature for today: #{@weather_low} degrees Fahrenheit.</h3>
 <h2>Today's Headlines:</h2>
 <h3>#{@headline1}</h3> 
 <h4>#{@abstract1}</h4> 
@@ -103,9 +103,10 @@ View the full article here: #{@url4}
 View the full article here: #{@url5}
 <br>
 <h5>Please feel free to contact us with questions, comments, concerns, compliments (!), and anything else you can think of at founders@the-daily-update.com. If you are okay with having your feedback published on the website, please let us know, and make sure to tell us what you’d like to be credited as (we can do anonymous, initials, full name, etc.). We love hearing from you!</h5>
+The puppy gif is from Giphy. The weather information is from the Weather Underground Database. The news update is from the New York Times.
 <br>
-<h5>The puppy gif is from Giphy. The weather information is from the Weather Underground Database. The news update is from the New York Times.</h5>
-<h5>Brought to you by The Daily Update. To unsubscribe, follow the link on <a href = 'http://the-daily-update.herokuapp.com/unsubscribe_page'>The Daily Update's website.</a></h5>
+Brought to you by The Daily Update. To unsubscribe, follow the link on <a href = 'http://the-daily-update.herokuapp.com/unsubscribe_page'>The Daily Update's website.</a>
+<br>
 </body></html>" 
       
     end   
