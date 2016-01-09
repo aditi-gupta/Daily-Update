@@ -11,11 +11,9 @@ body {
 div {
   margin: 30px;
   background-color: #dffff4;
+  padding-left: 50 px;
+  padding-right: 50 px;
   border: 1px solid black;
   opacity:0.9;
   filter:alpha(opacity=60);
-}
-
-div p {
-  margin: 5% 20%;
 }
