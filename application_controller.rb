@@ -37,6 +37,14 @@ class MyApp < Sinatra::Base
     erb :index
   end
   
+  get '/testimonials' do
+    erb :testimonials
+  end
+  
+  get '/credits' do
+    erb :credits
+  end
+  
   post '/unsubscribe' do
     unsubscriber = params["unsubscriber_email"]
     subscriber_to_remove = Unsubscriber.new(unsubscriber)
