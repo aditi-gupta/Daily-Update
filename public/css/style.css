@@ -15,3 +15,7 @@ div {
   opacity:0.9;
   filter:alpha(opacity=60);
 }
+
+div p {
+  margin: 5% 10%;
+}
