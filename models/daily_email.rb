@@ -102,6 +102,8 @@ View the full article here: #{@url4}
 <h4>#{@abstract5}</h4> 
 View the full article here: #{@url5}
 <br>
+<h5>Please feel free to contact us with questions, comments, concerns, compliments (!), and anything else you can think of at founders@the-daily-update.com. If you are okay with having your feedback published on the website, please let us know, and make sure to tell us what you’d like to be credited as (we can do anonymous, initials, full name, etc.). We love hearing from you!</h5>
+<br>
 <h5>The puppy gif is from Giphy. The weather information is from the Weather Underground Database. The news update is from the New York Times.</h5>
 <h5>Brought to you by The Daily Update. To unsubscribe, follow the link on <a href = 'http://the-daily-update.herokuapp.com/unsubscribe_page'>The Daily Update's website.</a></h5>
 </body></html>" 
