@@ -36,7 +36,11 @@ class DailyEmail
       "katherinehatfield2@gmail.com" => "10024",
       "reenagupta104@gmail.com" => "30097",
       "ambaiv04@gmail.com" => "30022",
-      "itad1099@gmail.com" => "10023"
+      "itad1099@gmail.com" => "10023",
+      "kirazelbo@gmail.com" => "10024",
+      "potatoeypot@gmail.com" => "10024",
+      "kzelbo@brearley.org" => "10024",
+      "kzelbo@nyc.rr.com" => "10024"
       }
     
   end
