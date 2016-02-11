@@ -40,7 +40,8 @@ class DailyEmail
       "kirazelbo@gmail.com" => "10024",
       "potatoeypot@gmail.com" => "10024",
       "kzelbo@brearley.org" => "10024",
-      "kzelbo@nyc.rr.com" => "10024"
+      "kzelbo@nyc.rr.com" => "10024",
+      "kgillman@brearley.org" => "10028"
       }
     
   end
