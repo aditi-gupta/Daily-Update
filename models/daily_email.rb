@@ -42,7 +42,7 @@ class DailyEmail
       "kzelbo@brearley.org" => "10024",
       "kzelbo@nyc.rr.com" => "10024",
       "kgillman@brearley.org" => "10028",
-      "gabriellrich@gmail.com" => "10075",
+      "gabriellerich@gmail.com" => "10075",
       "kaylaelaineb@yahoo.com" => "07305",
       "coolbeanz321@gmail.com" => "10128",
       "gaoyusi0206@gmail.com" => "10028",
