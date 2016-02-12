@@ -41,7 +41,21 @@ class DailyEmail
       "potatoeypot@gmail.com" => "10024",
       "kzelbo@brearley.org" => "10024",
       "kzelbo@nyc.rr.com" => "10024",
-      "kgillman@brearley.org" => "10028"
+      "kgillman@brearley.org" => "10028",
+      "gabriellrich@gmail.com" => "10075",
+      "kaylaelaineb@yahoo.com" => "07305",
+      "coolbeanz321@gmail.com" => "10128",
+      "gaoyusi0206@gmail.com" => "10028",
+      "jmulkin@brearley.org" => "10028",
+      "katybspade@mac.com" => "10075",
+      "bruskin777@gmail.com" => "10023",
+      "gertiepearl@gmail.com" => "10025",
+      "ajfried2002@gmail.com" => "10022",
+      "pinkpiano2000@gmail.com" => "10023",
+      "carla.delandri@gmail.com" => "10128",
+      "beatrixspade@icloud.com" => "10075",
+      "lloydplenty@msn.com" => "10028",
+      "marzipan241@gmail.com" => "11373"
       }
     
   end
