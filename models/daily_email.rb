@@ -55,7 +55,9 @@ class DailyEmail
       "carla.delandri@gmail.com" => "10128",
       "beatrixspade@icloud.com" => "10075",
       "lloydplenty@msn.com" => "10028",
-      "marzipan241@gmail.com" => "11373"
+      "marzipan241@gmail.com" => "11373",
+      "mkeppler@live.com" => "10019",
+      "caitlinhf.shoemaker@gmail.com" => "10025"
       }
     
   end
