@@ -47,7 +47,6 @@ class DailyEmail
       "coolbeanz321@gmail.com" => "10128",
       "gaoyusi0206@gmail.com" => "10028",
       "jmulkin@brearley.org" => "10028",
-      "katybspade@mac.com" => "10075",
       "bruskin777@gmail.com" => "10023",
       "gertiepearl@gmail.com" => "10025",
       "ajfried2002@gmail.com" => "10022",
