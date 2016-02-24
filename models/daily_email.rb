@@ -56,7 +56,8 @@ class DailyEmail
       "marzipan241@gmail.com" => "11373",
       "mkeppler@live.com" => "10019",
       "caitlinhf.shoemaker@gmail.com" => "10025",
-      "dglick@brearley.org" => "10021"
+      "dglick@brearley.org" => "10021",
+      "christine_yang7@yahoo.com" => "10021"
       }
     
   end
