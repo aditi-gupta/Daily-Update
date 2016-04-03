@@ -16,7 +16,6 @@ class DailyEmail
       "kguptaus@gmail.com" => "10028",
       "runwithbooks@gmail.com" => "11209",
       "acmawji888@yahoo.com" => "10128",
-      "scheng161@gmail.com" => "10128",
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024",
       "pgcarey@aol.com" => "60045",
