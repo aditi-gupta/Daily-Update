@@ -19,7 +19,6 @@ class DailyEmail
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024",
       "pgcarey@aol.com" => "60045",
-      "ajax461@yahoo.com" => "44236",
       "sahrsingh@yahoo.com" => "10029",
       "taylor@flatironschool.com" => "75230",
       "nehagnagpal@gmail.com" => "10028",
