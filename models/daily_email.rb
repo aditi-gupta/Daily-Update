@@ -43,7 +43,6 @@ class DailyEmail
       "gaoyusi0206@gmail.com" => "10028",
       "jmulkin@brearley.org" => "10028",
       "bruskin777@gmail.com" => "10023",
-      "gertiepearl@gmail.com" => "10025",
       "ajfried2002@gmail.com" => "10022",
       "pinkpiano2000@gmail.com" => "10023",
       "carla.delandri@gmail.com" => "10128",
