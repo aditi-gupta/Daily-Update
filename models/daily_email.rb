@@ -45,7 +45,6 @@ class DailyEmail
       "bruskin777@gmail.com" => "10023",
       "ajfried2002@gmail.com" => "10022",
       "pinkpiano2000@gmail.com" => "10023",
-      "carla.delandri@gmail.com" => "10128",
       "beatrixspade@icloud.com" => "10075",
       "lloydplenty@msn.com" => "10028",
       "marzipan241@gmail.com" => "11373",
