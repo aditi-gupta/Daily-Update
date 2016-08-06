@@ -18,7 +18,6 @@ class DailyEmail
       "acmawji888@yahoo.com" => "10128",
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024",
-      "pgcarey@aol.com" => "60045",
       "sahrsingh@yahoo.com" => "10029",
       "taylor@flatironschool.com" => "75230",
       "nehagnagpal@gmail.com" => "10028",
@@ -52,7 +51,8 @@ class DailyEmail
       "caitlinhf.shoemaker@gmail.com" => "10025",
       "dglick@brearley.org" => "10021",
       "christine_yang7@yahoo.com" => "10021",
-      "orlandoclay@gmail.com" => "10280"
+      "orlandoclay@gmail.com" => "10280",
+      "horatiohamkins@hunterschools.org" => "10022"
       }
     
   end
