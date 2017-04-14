@@ -23,7 +23,6 @@ class DailyEmail
       "nehagnagpal@gmail.com" => "10028",
       "mkyi@brearley.org" => "10028",
       "cnilssonsalvati@brearley.org" => "11101",
-      "jkaplan@brearley.org" => "10028",
       "chloestingray@gmail.com" => "10021",
       "adamtornado@gmail.com" => "10021",
       "pwhitehouse@brearley.org" => "10128",
