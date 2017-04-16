@@ -30,7 +30,6 @@ class DailyEmail
       "reenagupta104@gmail.com" => "30097",
       "ambaiv04@gmail.com" => "30022",
       "itad1099@gmail.com" => "10023",
-      "kirazelbo@gmail.com" => "10024",
       "potatoeypot@gmail.com" => "10024",
       "kzelbo@brearley.org" => "10024",
       "kzelbo@nyc.rr.com" => "10024",
