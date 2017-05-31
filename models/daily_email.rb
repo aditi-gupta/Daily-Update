@@ -50,8 +50,7 @@ class DailyEmail
       "dglick@brearley.org" => "10021",
       "christine_yang7@yahoo.com" => "10021",
       "orlandoclay@gmail.com" => "10280",
-      "horatiohamkins@hunterschools.org" => "10022",
-      "rubymendelsund@gmail.com" => "10128"
+      "horatiohamkins@hunterschools.org" => "10022"
       }
     
   end
