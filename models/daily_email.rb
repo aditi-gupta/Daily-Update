@@ -20,7 +20,6 @@ class DailyEmail
       "isabellagamboa@gmail.com" => "10024",
       "sahrsingh@yahoo.com" => "10029",
       "taylor@flatironschool.com" => "75230",
-      "nehagnagpal@gmail.com" => "10028",
       "mkyi@brearley.org" => "10028",
       "cnilssonsalvati@brearley.org" => "11101",
       "chloestingray@gmail.com" => "10021",
