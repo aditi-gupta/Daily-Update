@@ -81,7 +81,7 @@ class DailyEmail
       @headline5 = results_hash["results"][4]["title"]
       @abstract5 = results_hash["results"][4]["abstract"]
 
-      RestClient.post "https://api:key-a16cd16a87d93b2c72100c8dfc9a86a3"\
+      RestClient.post "https://api:key-262705a09683f8559057c6173150718c"\
         "@api.mailgun.net/v3/the-daily-update.com/messages",
       :from => "The Daily Update <postmaster@the-daily-update.com>",
       :to => email, 
