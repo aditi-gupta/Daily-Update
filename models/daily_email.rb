@@ -43,7 +43,7 @@ class DailyEmail
       "beatrixspade@icloud.com" => "10075",
       "lloydplenty@msn.com" => "10028",
       "mkeppler@live.com" => "10019",
-      "caitlinhf.shoemaker@gmail.com" => "10025",
+      "alex.f.sawaya@gmail.com" => "10024",
       "dglick@brearley.org" => "10021",
       "christine_yang7@yahoo.com" => "10021",
       "orlandoclay@gmail.com" => "10280",
