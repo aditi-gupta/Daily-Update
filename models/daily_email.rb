@@ -14,7 +14,6 @@ class DailyEmail
       "mstines007@icloud.com" => "10018",
       "aguptaus@gmail.com" => "10028",
       "kguptaus@gmail.com" => "10028",
-      "runwithbooks@gmail.com" => "11209",
       "acmawji888@yahoo.com" => "10128",
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024",
@@ -47,7 +46,6 @@ class DailyEmail
       "christine_yang7@yahoo.com" => "10021",
       "orlandoclay@gmail.com" => "10280",
       "horatiohamkins@hunterschools.org" => "10022",
-      "jdematteis@professionalpt.com" => "10112"
       }
     
   end
