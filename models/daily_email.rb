@@ -61,7 +61,7 @@ class DailyEmail
       @weather_high = result.days[0].high.fahrenheit
       @weather_low = result.days[0].low.fahrenheit
 
-      url = open('http://api.nytimes.com/svc/topstories/v1/home.json?api-key=1bc209243e9293d196158d94ac2c3bf3:12:72378428')
+      url = open('http://api.nytimes.com/svc/topstories/v2/home.json?api-key=1bc209243e9293d196158d94ac2c3bf3:12:72378428')
       results_hash = JSON.load(open(url))
       @url1 = results_hash["results"][0]["url"] 
       @headline1 = results_hash["results"][0]["title"]
