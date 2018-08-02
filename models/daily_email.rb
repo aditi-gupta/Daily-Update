@@ -3,7 +3,8 @@ require "giphy"
 require "pry"
 require "json"
 require "open-uri"
-require "weather-underground"
+require 'rubygems'
+require 'weather-api'
 
 class DailyEmail
   def initialize
@@ -46,7 +47,7 @@ class DailyEmail
       "christine_yang7@yahoo.com" => "10021",
       "orlandoclay@gmail.com" => "10280",
       "horatiohamkins@hunterschools.org" => "10022"
-      }
+    }
     
   end
   
@@ -54,12 +55,11 @@ class DailyEmail
     @users.each do |email, zipcode|
       
       @gif = Giphy.random('puppy').image_original_url
-
-      client = WeatherUnderground::Base.new
-      result = client.SimpleForecast( zipcode )
-      @weather_conditions = result.days[0].conditions
-      @weather_high = result.days[0].high.fahrenheit
-      @weather_low = result.days[0].low.fahrenheit
+  
+      response = Weather.lookup_by_location(zipcode, Weather::Units::FAHRENHEIT)
+      @weather_high = response.forecasts[0].high
+      @weather_low = response.forecasts[0].low
+      @weather_conditions = response.forecasts[0].text
 
       url = open('http://api.nytimes.com/svc/topstories/v2/home.json?api-key=1bc209243e9293d196158d94ac2c3bf3:12:72378428')
       results_hash = JSON.load(open(url))
@@ -112,7 +112,7 @@ View the full article here: #{@url4}
 View the full article here: #{@url5}
 <br>
 <h5>Please feel free to contact us with questions, comments, concerns, compliments (!), and anything else you can think of at founders@the-daily-update.com. We love hearing from you!</h5>
-The puppy gif is from Giphy. The weather information is from the Weather Underground Database. The news update is from the New York Times.
+The puppy gif is from Giphy. The weather information is from Yahoo Weather. The news update is from the New York Times.
 <br>
 Brought to you by The Daily Update. To unsubscribe, follow the link on <a href = 'http://the-daily-update.herokuapp.com/unsubscribe_page'>The Daily Update's website.</a>
 <br>
