@@ -15,7 +15,6 @@ class DailyEmail
       "mstines007@icloud.com" => "10018",
       "aguptaus@gmail.com" => "10028",
       "kguptaus@gmail.com" => "10028",
-      "acmawji888@yahoo.com" => "10128",
       "cricky@flatironschool.com" => "10012",
       "isabellagamboa@gmail.com" => "10024",
       "sahrsingh@yahoo.com" => "10029",
