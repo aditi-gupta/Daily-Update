@@ -41,7 +41,6 @@ class DailyEmail
       "pinkpiano2000@gmail.com" => "10023",
       "beatrixspade@icloud.com" => "10075",
       "lloydplenty@msn.com" => "10028",
-      "mkeppler@live.com" => "10019",
       "dglick@brearley.org" => "10021",
       "christine_yang7@yahoo.com" => "10021",
       "orlandoclay@gmail.com" => "10280",
