@@ -9,7 +9,7 @@ require 'weather-api'
 class DailyEmail
   def initialize
     @users = {
-      "arushigupta101@gmail.com" => "10028",
+      "arushigupta101@gmail.com" => "91125",
       "aditi100gupta@gmail.com" => "10028",
       "ellapapanek@yahoo.com" => "10011",
       "mstines007@icloud.com" => "10018",
