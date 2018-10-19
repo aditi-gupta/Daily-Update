@@ -39,7 +39,6 @@ class DailyEmail
       "bruskin777@gmail.com" => "10023",
       "ajfried2002@gmail.com" => "10022",
       "pinkpiano2000@gmail.com" => "10023",
-      "beatrixspade@icloud.com" => "10075",
       "lloydplenty@msn.com" => "10028",
       "dglick@brearley.org" => "10021",
       "christine_yang7@yahoo.com" => "10021",
