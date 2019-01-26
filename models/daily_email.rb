@@ -26,7 +26,6 @@ class DailyEmail
       "pwhitehouse@brearley.org" => "10128",
       "katherinehatfield2@gmail.com" => "10024",
       "reenagupta104@gmail.com" => "30097",
-      "ambaiv04@gmail.com" => "30022",
       "itad1099@gmail.com" => "10023",
       "potatoeypot@gmail.com" => "10024",
       "kzelbo@brearley.org" => "10024",
